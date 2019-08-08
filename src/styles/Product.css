@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dateSpan {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    height: 70%;
+    margin: 5%;
+    overflow: visible;
+}
+
+.heading {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    color: indianred;
+}
+
+.form-control,
+.custom-select {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 25px;
+    position: static;
+    float: left;
+}
+
+table {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.error {
+    border-color: indianred;
+}

@@ -1,0 +1,48 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.cardBody {
+    background-color: #f8f9fa !important;
+}
+
+.floatLeft {
+    float: left;
+    position: absolute;
+}
+
+h3,
+table {
+    text-align: center;
+}
+
+
+/* delete button */
+
+.width {
+    width: 100px;
+    margin: 15px 0px;
+}
+
+.orders {
+    background-color: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.orders:hover {
+    background-color: none;
+    background-color: #f8f9fa !important;
+}
+
+.expand {
+    margin-top: 30px
+}

@@ -1,0 +1,48 @@
+#productTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#productTable td,
+#productTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#productTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.delete,
+.view {
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.delete:hover,
+.view:hover {
+    background-color: indianred;
+    border-color: indianred;
+    color: white;
+}
+
+#billingTable td {
+    text-align: left;
+    color: black;
+    padding-right: 20px;
+}
+
+.view {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.view:hover {
+    background-color: indianred;
+    border-color: indianred;
+    color: white;
+}
